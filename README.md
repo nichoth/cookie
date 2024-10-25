@@ -14,7 +14,7 @@ This is a fork of [jshttp/cookie](https://github.com/jshttp/cookie).
 ## Installation
 
 ```sh
-$ npm install @nichoth/cookie
+npm i -S @nichoth/cookie
 ```
 
 ## API
