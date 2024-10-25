@@ -7,17 +7,20 @@
 
 Basic HTTP cookie parser and serializer for HTTP servers.
 
+## fork
+
+This is a fork of [jshttp/cookie](https://github.com/jshttp/cookie).
+
 ## Installation
 
 ```sh
-$ npm install cookie
+$ npm install @nichoth/cookie
 ```
 
 ## API
 
 ```js
-const cookie = require("cookie");
-// import * as cookie from 'cookie';
+import * as cookie from "@nichoth/cookie";
 ```
 
 ### cookie.parse(str, options)

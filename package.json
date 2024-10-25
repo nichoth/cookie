@@ -1,5 +1,5 @@
 {
-  "name": "cookie",
+  "name": "@nichoth/cookie",
   "version": "1.0.1",
   "description": "HTTP server cookie parsing and serialization",
   "keywords": [
@@ -24,7 +24,8 @@
     "prepare": "ts-scripts install",
     "prepublishOnly": "npm run build",
     "specs": "ts-scripts specs",
-    "test": "ts-scripts test"
+    "test": "ts-scripts test",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
     "@borderless/ts-scripts": "^0.15.0",
